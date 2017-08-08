@@ -78,12 +78,14 @@ async def serverinfo(ctx):
 
 #a command that sets the bots game
 
-@client.command()
-async def setgame(game):
-    """Sets The Bots Game"""
-    if ctx.message.author.id == (ownerid):
-        await client.change_presence(game=discord.Game(name=game))
-        await client.say("Successfuly changed game to {}".format(game))
+@client.command(pass_context=True)
+async def setgame(ctx, *, game):
+    """Sets my game (Owner)"""
+    if ctx.message.author.id == (owner):
+        message = ctx.message
+        await client.delete_message(message)
+            await client.whisper("Game was set to **{}**!".format(game))
+            await client.change_presence(game=discord.Game(name=game))
 
 #Clears The Chat
 
