@@ -81,7 +81,7 @@ async def serverinfo(ctx):
 @client.command(pass_context=True)
 async def setgame(ctx, *, game):
     """Sets my game (Owner)"""
-    if ctx.message.author.id == (owner):
+    if ctx.message.author.id == (ownerid):
         message = ctx.message
         await client.delete_message(message)
             await client.whisper("Game was set to **{}**!".format(game))
