@@ -84,8 +84,8 @@ async def setgame(ctx, *, game):
     if ctx.message.author.id == (ownerid):
         message = ctx.message
         await client.delete_message(message)
-            await client.whisper("Game was set to **{}**!".format(game))
-            await client.change_presence(game=discord.Game(name=game))
+        await client.whisper("Game was set to **{}**!".format(game))
+        await client.change_presence(game=discord.Game(name=game))
 
 #Clears The Chat
 
