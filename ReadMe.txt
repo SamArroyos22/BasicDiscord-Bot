@@ -1,5 +1,8 @@
 How to Set Up:
 1) open config file and add your "token", "link", "prefix"
+1a) to get your Token and Client ID go here: https://discordapp.com/developers/applications/me/
+Then go to My Apps > Click My Apps
+1b) To get your bots invite link go here https://discordapi.com/permissions.html
 2) double click on run.py and your bot should start
 3)                  **IMPORTANT**
       Add A Role Names Admin (Why? You may Ask)
