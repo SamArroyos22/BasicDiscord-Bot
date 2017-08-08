@@ -81,13 +81,9 @@ async def serverinfo(ctx):
 @client.command()
 async def setgame(game):
     """Sets The Bots Game"""
-    user_roles = [r.name.lower() for r in ctx.message.author.roles]
-
-    if "admin" not in user_roles:
-        return await client.say("You do not have the role: Admin")
-    pass
-    await client.change_presence(game=discord.Game(name=game))
-    await client.say("Successfuly changed game to {}".format(game))
+    if ctx.message.author.id == (ownerid):
+        await client.change_presence(game=discord.Game(name=game))
+        await client.say("Successfuly changed game to {}".format(game))
 
 #Clears The Chat
 
