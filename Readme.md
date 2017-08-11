@@ -1,5 +1,5 @@
 # BasicDiscord Bot
-![py](https://img.shields.io/badge/Python-3.6-blue.svg?style=social)
+![py](https://img.shields.io/badge/Python-3.6-blue.svg?style=social) ![PyPI](https://img.shields.io/badge/Python-3.6-blue.svg)
 
 # Installing
 ```
