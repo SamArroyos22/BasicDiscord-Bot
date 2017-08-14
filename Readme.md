@@ -14,7 +14,7 @@ Then Open Up The File Named ReadMe.txt
 
 # Video Tutorial
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/gLDdSotHdDI" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=gLDdSotHdDI
 
 # How To Set Up The Bot
 
