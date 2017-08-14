@@ -12,6 +12,10 @@ git clone https://github.com/SamArroyos22/Discord.py-Bot-Commands
 ```
 Then Open Up The File Named ReadMe.txt
 
+# Video Tutorial
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/gLDdSotHdDI" frameborder="0" allowfullscreen></iframe>
+
 # How To Set Up The Bot
 
 1. Download The Zip File If you dont have Github Desktop
@@ -26,6 +30,4 @@ Then Open Up The File Named ReadMe.txt
 
 1. Join My Help server Here : https://discord.gg/BzTaYZT
 2. Open up an Issue
-
-# Video Tutorial Coming Soon
 
